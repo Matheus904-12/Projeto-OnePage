@@ -1,0 +1,200 @@
+/* font */
+
+@font-face {
+    font-family: mont;
+    src: url(Assets/Montserrat-VariableFont_wght.ttf)
+}
+
+.item {
+    font: 400 25px 'mont', sans-serif;
+    color: #678471;
+}
+
+/* fim font */
+
+/* css reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* fim css reset */
+
+/* header */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 250px;
+}
+
+.item:hover {
+    font: 400 35px 'mont', sans-serif;
+    transition: 0.5s;
+    color: #ffa36a
+}
+
+/* fim header */
+
+/* divisoria */
+.divisao {
+    height: 1px;
+    background-color: #47564c;
+    margin: 15px 0;
+}
+/* fim divisoria */
+
+/* comida */
+.cozinhando {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.titulo {
+    font: 500 40px 'mont', sans-serif;
+    color: #47564c;
+    margin-bottom: 20px;
+}
+
+.txt {
+    font: 300 20px 'mont', sans-serif;
+    text-align: justify;
+}
+
+#nossaComida {
+    margin: 0 70px;
+}
+
+#nossaComida .conteudo {
+    margin-left: 30px;
+}
+/* fim comida */
+
+/* nossa equipe */
+#nossaEquipe {
+    margin: 0 70px;
+}
+
+#nossaEquipe .conteudo {
+    margin-right: 30px;
+}
+
+.panela {
+    width: 500px;
+    border-radius: 5px;
+}
+/* fim nossa equipe */
+
+/* cardapio */
+.comida {
+    width: 100px;
+}
+.comida:hover {
+    width: 120px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.pratos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prato {
+    border:2px solid black;
+    width: 300px;
+    text-align: center;
+    margin:15px 30px;
+    padding: 15px;
+}
+
+.cardapio {
+    margin: 0 70px;
+
+}
+
+.prato-txt {
+    font: 300 12px 'mont', sans-serif;
+    text-align: justify;
+}
+.prato-nome, .prato-preco {
+    font: 600 15px 'mont', sans-serif;
+}
+/* fim cardapio */
+
+/* footer */
+#contato {
+    background: #678471;
+}
+
+.contatos {
+    padding: 70px 40px;
+}
+
+.amm {
+    font: 600 35px 'mont', sans-serif;
+    color: #fff;
+
+}
+
+.cs {
+    font: 400 25px 'mont', sans-serif;
+    color: #ffa36a;
+}
+
+.nome {
+    text-align: center;
+
+}
+
+.icon {
+    width: 30px;
+    margin-right: 12px;
+
+}
+
+.rede {
+    display: flex;
+    text-align: center;
+}
+
+.rede-nome {
+    color: #fff;
+    font: 400 20px 'mont', sans-serif;
+}
+
+.endereco-nome {
+    color: #fff;
+    font: 500 24px 'mont', sans-serif;
+}
+
+.endereco-local {
+    color: #fff;
+    font: 400 20px 'mont', sans-serif;
+}
+
+.endereco {
+    width: 500px;
+}
+
+/* fim footer */
+
+html {
+    scroll-behavior: smooth;
+}
