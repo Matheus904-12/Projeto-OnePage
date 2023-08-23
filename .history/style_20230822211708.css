@@ -42,11 +42,7 @@ a {
 
 .logo {
     width: 250px;
-}
-
-.item {
-    padding: 0px 20px;
-}
+  }
 
 .item:hover {
     font: 400 35px 'mont', sans-serif;
@@ -54,9 +50,6 @@ a {
     color: #ffa36a
 }
 
-.menu-barras {
-    display: none;
-}
 /* fim header */
 
 /* divisoria */
@@ -281,9 +274,8 @@ html {
     }
 
     .logo {
-        width: 40vw;
-
-    }
+        width: 40px;
+      }
 
 
 
@@ -351,8 +343,7 @@ html {
 
 /* PORTABILIDADE TABLET */
 
-@media screen and (min-width:401px) and (max-width: 768px) {
-
+@media screen and (min-width: 401px) and (max-width: 768px) {
     .container,
     .conteudo {
         margin: 0;
@@ -414,42 +405,11 @@ html {
 
     }
 
-    .menu-barras {
-        display: initial;
-    }
-    
-    #icone {
-        color: #ffa36a;
-        font-size: 30px;
-    }
-
-    #opc {
-        display: none;
-
-    }
-
-    .opcoes {
-            display: none;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            background-color: #ffffffe6;
-            position: absolute;
-            top: 80px;
-            left: 0px;
-            height: 300px;
-            width: 100%;
-        }
-
      /* fim header */
 
     /* cardapio */
     .cardapio {
         margin: 0px;
-    }
-
-    #tCardapio {
-        margin: 0 15px;
     }
 
     /* fim cardapio */
@@ -501,4 +461,3 @@ html {
 }
 
 /* FIM PORTABILIDADE TABLET */
-

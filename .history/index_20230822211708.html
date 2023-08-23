@@ -7,17 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Comida Caseira</title>
+    <title>COMIDA CASEIRA</title>
+
+    <!--JAVASCRIPT-->
+    
+    <link rel="stylesheet" href="script.js">
+    
+    <!--VERSÃO TABLET-->
+
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 401px) and (max-width: 768px)">
+
+    <!--TROCAR ICONE-->
 
     <link rel="icon" href="Imagens/icone.svg">
 
-
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/78f0f143f5.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
@@ -26,17 +31,11 @@
     <header id="header">
         <nav class="menu container">
             <img src="Imagens/logo.png" alt="logo" class="logo">
-            <section class="opcoes" id="opc">
-                <a href="#header" class="item">HOME</a>
-                <a href="#nossaComida" class="item">NOSSA COMIDA</a>
-                <a href="#nossaEquipe" class="item">NOSSA EQUIPE</a>
-                <a href="#cardapio" class="item">NOSSO CARDÁPIO</a>
-                <a href="#contato" class="item">CONTATO</a>
-            </section>
-
-            <a class="menu-barras" onclick="mostrarMenu()">
-                <span id="icone" class="fas fa-bars"></span>
-            </a>
+            <a href="#header" class="item">HOME</a>
+            <a href="#nossaComida" class="item">NOSSA COMIDA</a>
+            <a href="#nossaEquipe" class="item">NOSSA EQUIPE</a>
+            <a href="#cardapio" class="item">NOSSO CARDÁPIO</a>
+            <a href="#contato" class="item">CONTATO</a>
         </nav>
     </header>
     <!-- FIM CABEÇALHO -->
@@ -57,7 +56,7 @@
                 </div>
 
                 <div class="conteudo">
-                    <h2 class="titulo"> NOSSA COMIDA</h2>
+                    <center><h2 class="titulo"> NOSSA COMIDA</h2></center>
                     <p class="txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem ipsum
                         voluptate
                         rerum nihil tenetur, quas similique totam laboriosam, dignissimos minima itaque veritatis illo
@@ -69,10 +68,10 @@
 
         <!-- nossa equipe -->
 
-        <section id="nossaEquipe" class="section">
+       <section id="nossaEquipe" class="section">
             <div class="container">
                 <div class="conteudo">
-                    <h2 class="titulo">NOSSA EQUIPE</h2>
+                     <center><h2 class="titulo">NOSSA EQUIPE</h2></center>
                     <p class="txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci voluptatem cumque,
                         eius molestias, libero quam porro minus, assumenda explicabo eaque dicta. Dicta debitis
                         molestiae similique et dignissimos optio a modi. Lorem ipsum, dolor sit amet consectetur
@@ -91,7 +90,7 @@
 
         <section id="cardapio" class="section">
             <div class="cardapio">
-                <h2 class="titulo" id="tCardapio">NOSSO CARDÁPIO</h2>
+                <center><h2 class="titulo">NOSSO CARDÁPIO</h2></center>
                 <div class="pratos">
                     <div class="prato">
                         <img src="Imagens/prato1.png" alt="PRATO1" class="comida">
@@ -169,7 +168,7 @@
                         ENDEREÇO:
                     </h4>
                     <p class="endereco-local">
-                        R. Luis Nobrega Alberto, Nº345678, Gustav Limão - TY, 98765434-7654
+                        R. Luis Nobrega Alberto, Nº345678, Gustav Limão - TY, 98765434-7654 
                     </p>
                 </div>
             </div>
